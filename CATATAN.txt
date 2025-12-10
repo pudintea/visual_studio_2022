@@ -1,0 +1,60 @@
+Visual Studio 2022
+===================
+
+1️⃣ Buka Visual Studio 2022
+Jalankan Visual Studio
+Pilih menu File → New → Project
+
+2️⃣ Pilih jenis project
+Karena ini file .cs tunggal, pilih:
+✔ Console App (.NET)
+(Tersedia untuk C#)
+Klik Next.
+
+3️⃣ Beri nama project
+Misal: BMIApp, lalu klik Create.
+
+4️⃣ Masukkan file bmi_calculator.cs
+Ada dua cara:
+Cara A (Drag & Drop)
+Drag file bmi_calculator.cs
+Drop ke folder Project → Solution Explorer
+Cara B (Add Existing File)
+Klik kanan pada project → Add → Existing Item…
+Pilih bmi_calculator.cs
+
+5️⃣ (Opsional) Jika ada file Program.cs lain
+Jika file Anda sudah punya Main(), lakukan:
+
+Delete file Program.cs agar tidak terjadi multiple entry point error
+(Klik kanan → Delete)
+
+Jika file Anda tidak punya Main(), tetap biarkan Program.cs sebagai entry point.
+
+6️⃣ Jalankan program
+Tekan:
+▶ Start / F5
+Atau:
+Menu Debug → Start Debugging
+
+📌 B. Jika bmi_calculator.cs tidak punya Main()
+
+Misal isinya hanya class seperti:
+public class BMICalculator
+{
+    // method menghitung BMI
+}
+Maka Anda perlu memanggilnya dari Program.cs:
+using System;
+class Program
+{
+    static void Main()
+    {
+        BMICalculator bmi = new BMICalculator();
+        bmi.Run(); // contoh
+    }
+}
+
+Lalu jalankan seperti biasa.
+
+===== PUDIN SAEPUDIN ======
