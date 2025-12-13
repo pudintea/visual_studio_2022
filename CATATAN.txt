@@ -57,4 +57,25 @@ class Program
 
 Lalu jalankan seperti biasa.
 
+============================================================================
+
+Lokasi Program : C:\Users\Administrator\source\repos (Administrator adalah nama user yang digunakan, bisa berbeda beda).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ===== PUDIN SAEPUDIN ======
